@@ -10,6 +10,6 @@
   display: none;
 }
 #diagnosis{
-  display: none;
 }
 #practice {zwidth:600px;border:1px solid #ccc}
+#diagnosis{zwidth:600px;border:1px solid #ccc}

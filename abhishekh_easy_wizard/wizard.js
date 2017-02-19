@@ -17,24 +17,22 @@ $(function() {
     //  }
     },
     after: function(wizardObj, currentStepObj, nextStepObj) {
-    //  if($( "input[name=gender1]:checked" ).val() === 'No'){
-    //    $("#info").css('display','block');
-    //    $( "input[name=gender1]:checked" ).prop('checked',false)
-    //    $('#myWizard').easyWizard('prevStep');
-    //  } else if($( "input[name=gender1]:checked" ).val() === 'Yes'){
-    //    $( "input[name=gender1]:checked" ).prop('checked',false)
-    //  }
+      if($( "input[name=gender1]:checked" ).val() === 'No'){
+        $("#info").css('display','block');
+        $( "input[name=gender1]:checked" ).prop('checked',false)
+        $('#practice').easyWizard('prevStep');
+     } else if($( "input[name=gender1]:checked" ).val() === 'Yes'){
+        $( "input[name=gender1]:checked" ).prop('checked',false)
+      }
       if($( "input[name=think]:checked" ).val() === 'First'){
         $("#diagnosis").css('display','block');
         $("#practice").css('display','none');
+        $( "input[name=think]:checked" ).prop('checked',false);
+        $('#practice').easyWizard('prevStep');
       }
-    },
-    beforeSubmit: function(wizardObj) {
-        alert('Hello, I\'am the beforeSubmit callback');
     }
   });
   $('#diagnosis').easyWizard({
-      showSteps: false,
       buttonsClass: 'btn',
       submitButtonClass: 'btn',
       submitButtonText: 'Go Back To Practice',
@@ -42,13 +40,15 @@ $(function() {
 
       },
       after: function(wizardObj, currentStepObj, nextStepObj) {
+
+      },
+      beforeSubmit: function(wizardObj) {
         if($( "input[name=diagnosis]:checked" ).val() === 'Camel'){
           $("#diagnosis").css('display','none');
           $("#practice").css('display','block');
+          $( "input[name=diagnosis]:checked" ).prop('checked',false)
         }
-      },
-      beforeSubmit: function(wizardObj) {
-
       }
   });
+  $("#diagnosis").css('display','none');
 });
