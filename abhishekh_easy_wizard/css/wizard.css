@@ -11,5 +11,9 @@
 }
 #diagnosis{
 }
-#practice {zwidth:600px;border:1px solid #ccc}
-#diagnosis{zwidth:600px;border:1px solid #ccc}
+h5{
+  float: right;
+}
+#header{
+  border-bottom: 5px solid #08c;
+}

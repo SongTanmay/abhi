@@ -7,7 +7,6 @@
        url('http://www.mojotech.com/assets/fonts/futurastd-extrabold-webfont.svgg#din-med') format('svg');
 }
 
-body {border-top:5px solid #08c;padding-top:50px}
 #wrapper {margin:0 auto;float:none}
 #navbar {z-index:1000}
 #navbar.affix {top:0}

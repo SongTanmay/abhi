@@ -1,0 +1,99 @@
+<section class="step" data-step-title="intro 1">
+    <p>The Apple’s App store Review guidelines, mostly emphasis on the design aesthetics as a top priority in order to publish your app in the market. By the end of this course, you will be able to identify the best approach to choose a button style based on the iOS design guidelines.</p>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>What we’ve learned so far</h4>
+  <br>
+  <ul>
+    <li>Design knowledge is very crucial for an iOS developer as the Apple’s App Store approval process scrutinizes based on the design aesthetics. In order to avoid such a situation it is recommended to go through the guidelines. So far, we have learned the following:</li>
+    <br>
+    <li>Learning iOS guidelines for the dimensions of different iPhone devices such Apple 5s, 6s, 6s plus, 7s and 7s Plus.</li>
+    <br>
+    <li>Learning iOS guidelines for the Text styles (Typography).</li>
+    <br>
+    <li>Identifying the relevant solutions for Navigation bar of Apple devices.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>Objective</h4>
+  <br>
+  <ul>
+    <li>Given definition of iOS design guidelines for buttons and 6 example app screens that explains the matching criteria, the student will be able to recall all the design guidelines for a button and identify if a button in an App screen meets the design guidelines.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>Entering Skills</h4>
+  <br>
+  <ul>
+    <li>Before going into this module, you should be able to define screen sizes of different iPhone devices, Typography rules and recall a suitable navigation bar following the rules mentioned in iOS guidelines for iPhone 7. If you are not sure of any of the above concepts or you haven’t completed these units, you should not continue.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>Why not just create any button?</h4>
+  <br>
+  <ul>
+    <li>Buttons play a major role in iOS App design. Every button has a particular purpose, and if your design does not reflect as per the iOS design guidelines, there are high chances that your app will get rejected at the App store. You will also get to identify if a button design meets the guidelines or not. This unit will let you think twice on the screens that you have designed are either good enough for submission to the app store or need to re-iterate.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>Principle</h4>
+  <br>
+  <ul>
+    <li>App development is a time taking process. Design and development are very crucial in this process. If the app is not well designed at the first place, the time spent on coding is all gone to waste as it's likely to get rejected by the app store. Thus, Apple has provided the interface guidelines for its developers to let developers understand the basic guidelines which could save ample time for themselves as well as the reviewers at Apple. For example, if the app does not use the system provided items like the button sizes and icons, it is more likely to get rejected.</li>
+    <br>
+    <li>A good button should follow the iOS guidelines for button.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>iOS guidelines for designing a button</h4>
+  <br>
+  <ul>
+    <li>The buttons should be used for action items; thus, the title of the button should be a verb and short.</li>
+    <br>
+    <li>Buttons can only have pointed or rounded corners.</li>
+    <br>
+    <li>Height of the button is recommended to be either 44px, 66px or 88px.</li>
+    <br>
+    <li>The text should be center aligned inside the button.</li>
+    <br>
+    <li>The color of the title and the button should be contrasting.</li>
+    <br>
+    <li>Every word in the title should be either capitalized or.</li>
+    <br>
+    <li>Title should be kept as short as possible. It should not be overly crowded.</li>
+    <br>
+    <li>If a button has both text and an Icon, then the title should start with the icon and should be center aligned to the button.</li>
+    <br>
+    <li>Just Icons or text can also be used as buttons if necessary. The chosen icons should be a thin style icon without a stroke to it.</li>
+    <br>
+  </ul>
+</section>
+<section class="step" data-step-title="intro 1">
+  <h4>Let's look at a bad example</h4>
+  <br>
+  <ul>
+    <li>The buttons should be used for action items; thus, the title of the button should be a verb. (N)</li>
+    <br>
+    <li>Buttons can only have pointed or rounded corners. (Y)</li>
+    <br>
+    <li>Height of the button is recommended to be above 44px. (N)</li>
+    <br>
+    <li>The text should be center aligned inside the button. (Y)</li>
+    <br>
+    <li>The color of the title and the button should be contrasting. (N)</li>
+    <br>
+    <li>Every word in the title should be either capitalized or . (N)</li>
+    <br>
+    <li>Title should be kept as short as possible. It should not be overly crowded. (N)</li>
+    <br>
+    <li>If a button has both text and an Icon, then the title should start with the icon and should be center aligned to the button. (N/A)</li>
+    <br>
+    <li>Just Icons or text can also be used as buttons if necessary. The chosen icons should be a thin style icon without a stroke to it. (N/A)</li>
+    <br>
+  </ul>
+</section>

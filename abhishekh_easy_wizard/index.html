@@ -13,23 +13,63 @@
     <script src="js/jquery.easyWizard.js"></script>
     <script src="wizard.js"></script>
 		<div id="wrapper" class="span10">
+			<div id="header">
+				<h2>Introduction to iOS guidelines</h2>
+				<h3>Unit-5: Do’s and Don'ts of a button</h3>
+			</div>
+			<br>
 			<div class="alert alert-success" id="success-alert">
 				<button type="button" class="close" data-dismiss="alert">x</button>
 				<strong>Success! </strong>
 				Prfsdfsdfsdfsdf
 			</div>
       <form id="practice" type="get" action="" class="form-horizontal">
-				<section class="step" data-step-title="intro 1">
-            1
-        </section>
 				<section class="step" data-step-title="practice 1">
-            Are you okay?<br>
-						<input type="radio" name="gender1" value="Yes"> Yes<br>
-  					<input type="radio" name="gender1" value="No"> No<br>
-						<br>
+            <h2>Let's practice identifying good buttons</h2>
+						<h4>Click on next button to start practice</h4>
+        </section>
+
+				<section class="step" data-step-title="practice 1">
+					<div class="row">
+				    <div class="span4">
+							<h4>Practice 1</h4>
+	            Is this a Good button or a Bad button?<br>
+							<input type="radio" name="practice1" value="Good_Button"> Good Button<br>
+	  					<input type="radio" name="practice1" value="Bad_Button"> Bad Button<br>
+				    </div>
+				    <div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_1.png" data-holder-rendered="true">
+							<br>
+				    </div>
+				  </div>
+						<div id='practice1_info' class="alert alert-info">
+							<ul>
+								<strong>Information</strong>
+								<li>Buttons can only have pointed or rounded corners.</li>
+								<li>Height of the button is recommended to be above 44px.</li>
+							</ul>
+						</div>
+					</row>
+        </section>
+				<section class="step" data-step-title="practice 2">
+					<div class="row">
+				    <div class="span4">
+							<h4>Practice 2</h4>
+	            Below is a good example for representing an icon button.<br>Please check all the options which best suites:<br>
+							<input type="checkbox" name="practice_2" value="thin"> The icon is a thin style<br>
+							<input type="checkbox" name="practice_2" value="text"> The icon has no text associated<br>
+							<input type="checkbox" name="practice_2" value="extra"> The icon has no extra stroke<br>
+	  					<input type="checkbox" name="practice_2" value="touch"> The icon is has good touch area<br>
+				    </div>
+				    <div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_2.png" data-holder-rendered="true">
+							<br>
+				    </div>
+				  </div>
 						<div id='info' class="alert alert-danger">
 						  <strong>Dude</strong> trust me you are okay...
 						</div>
+					</row>
         </section>
 				<section class="step" data-step-title="practice 2">
             Are you okay after first question?<br>
@@ -80,7 +120,7 @@
   					<input type="radio" name="diagnosis" value="Second"> Second<br>
 						<input type="radio" name="diagnosis" value="Both"> Both<br>
         </section>
-				
+
       </form>
     </div>
   </body>
