@@ -19,7 +19,11 @@
 				<div id="diagnosis_header">
 					<h3>Oops! It’s a wrong answer. Lets see where have you gone wrong.</h3>
 				</div>
+				<div id="test_score">
+					<h3 id="test_no"></h3><h3> Out of 5</h3>
+				</div>
 			</div>
+
 			<br>
 			<div class="alert alert-success" id="success-alert">
 				<button type="button" class="close" data-dismiss="alert">x</button>
@@ -117,23 +121,90 @@
 				    </div>
 				  </div>
         </section>
-				<section class="step" data-step-title="practice 2">
-            Are you okay after first question?<br>
-						<input type="radio" name="gender2" value="Yess"> Yess<br>
-  					<input type="radio" name="gender2" value="Noo"> Noo<br>
+				<section class="step" data-step-title="test_intro">
+            <h5>Well done! You have seen different ways of representing a good button as well as identified the bad buttons
+						based on the iOS guidelines. If you think you are familiar with the guidelines for button, please click “Next”
+						to take a quick test. After the test, you will receive a score and based on it you can move forward with the course.
+						If you think you are not ready for the test, then please click on “Start Over” to review the practise session again.
+						</h5>
+						<h3>All the best!!!</h3>
+
         </section>
-				<section class="step" data-step-title="practice 3">
-            What do you think?<br>
-						<input type="radio" name="think" value="First"> First<br>
-  					<input type="radio" name="think" value="Second"> Second<br>
-						<input type="radio" name="think" value="Both"> Both<br>
+				<section class="step" data-step-title="test1">
+					<div class="row">
+						<div class="span4">
+							Which of the following statement is true?<br>
+							<input type="radio" name="test1" value="violates_test1"> The Grey button violates the rules<br>
+							<input type="radio" name="test1" value="qualifies_test1"> The green button qualifies to be a bad button<br>
+							<input type="radio" name="test1" value="Both_test1"> Both the buttons do not qualify to be a good button<br>
+							<input type="radio" name="test1" value="none_test1"> None of these<br>
+						</div>
+						<div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/test_1.png" data-holder-rendered="true">
+							<br>
+						</div>
+					</div>
         </section>
-				<section class="step" data-step-title="practice 4">
-            No, Are you okay now?<br>
-						<input type="radio" name="gender3" value="Yesss"> Yesss<br>
-  					<input type="radio" name="gender3" value="Nooo"> Nooo<br>
+				<section class="step" data-step-title="test2">
+					<div class="row">
+						<div class="span4">
+							Is this a Good button or a Bad button?<br>
+							<input type="radio" name="test2" value="thin_test2"> Good Button<br>
+							<input type="radio" name="test2" value="correct_test2"> Bad Button<br>
+						</div>
+						<div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/test_2.png" data-holder-rendered="true">
+							<br>
+						</div>
+					</div>
+        </section>
+				<section class="step" data-step-title="test3">
+					<div class="row">
+						<div class="span4">
+							Which of the following statement is true?<br>
+							<input type="radio" name="test3" value="44"> The height of the button is above 44px, hence it is a good button.<br>
+							<input type="radio" name="test3" value="contrast"> The text color is not in contrast with the button color, hence it is a bad button.<br>
+							<input type="radio" name="test3" value="guidelines"> The button qualifies all the guidelines, hence it’s a good button.<br>
+							<input type="radio" name="test3" value="none_test3"> None of these<br>
+						</div>
+						<div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/test_3.png" data-holder-rendered="true">
+							<br>
+						</div>
+					</div>
+        </section>
+				<section class="step" data-step-title="test4">
+					<div class="row">
+						<div class="span4">
+							Which of the following statement is true?<br>
+							<input type="radio" name="test4" value="blue_test4"> Only blue button is a good button<br>
+							<input type="radio" name="test4" value="grey_test4"> Only Grey button is a good button<br>
+							<input type="radio" name="test4" value="green_test4"> Only green button is a good button<br>
+							<input type="radio" name="test4" value="three_test4"> All the three buttons are good buttons<br>
+						</div>
+						<div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/test_4.png" data-holder-rendered="true">
+							<br>
+						</div>
+					</div>
+        </section>
+				<section class="step" data-step-title="test5">
+					<div class="row">
+						<div class="span4">
+							Is this a Good button or a Bad button?<br>
+							<input type="radio" name="test5" value="test5_good"> Good Button<br>
+							<input type="radio" name="test5" value="test5_bad"> Bad Button<br>
+						</div>
+						<div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/test_5.png" data-holder-rendered="true">
+							<br>
+						</div>
+					</div>
         </section>
 
+				<section class="step" data-step-title="fake">
+					fake
+        </section>
       </form>
 
 			<form id="diagnosis" type="get" action="" class="form-horizontal">

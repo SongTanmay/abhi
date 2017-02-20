@@ -2,7 +2,6 @@ $(function() {
   $("#success-alert").hide();
   $('#practice').easyWizard({
     showSteps: false,
-    submitButton: false,
     buttonsClass: 'btn',
     submitButtonClass: 'btn btn-info',
     before: function(wizardObj, currentStepObj, nextStepObj) {
@@ -42,6 +41,9 @@ $(function() {
         });
         $( "input[name=practice4]:checked" ).prop('checked',false)
       }
+
+      //test
+
     },
     after: function(wizardObj, currentStepObj, nextStepObj) {
       //practice1
@@ -74,7 +76,21 @@ $(function() {
         $('#practice').easyWizard('prevStep');
         $("#diagnosis_header").css('display','block');
       }
-    }
+    },
+    beforeSubmit: function(wizardObj) {
+      var score = 0;
+      var expected_score = ['qualifies_test1','thin_test2','contrast','three_test4','test5_bad'];
+      var test_score = $('input:radio:checked').each(function( index, element ) {
+                              if(element.value === expected_score[index]){
+                                score++;
+                              }
+                              return score;
+                          }).get();
+
+      $("#practice").css('display','none');
+      $("#test_score").css('display','block');
+      $("#test_no").text(score);
+   }
   });
 
   $('#diagnosis').easyWizard({
