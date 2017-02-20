@@ -6,11 +6,10 @@
 .easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
 .easyWizardButtons .prev {float:left}
 .easyWizardButtons .next, .easyWizardButtons .submit {float:right}
-#info{
+#practice1_info, #practice2_info, #practice3_info, #diagnosis_header, #diagnosis2_info{
   display: none;
 }
-#diagnosis{
-}
+
 h5{
   float: right;
 }

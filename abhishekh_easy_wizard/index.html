@@ -16,14 +16,18 @@
 			<div id="header">
 				<h2>Introduction to iOS guidelines</h2>
 				<h3>Unit-5: Do’s and Don'ts of a button</h3>
+				<div id="diagnosis_header">
+					<h3>Oops! It’s a wrong answer. Lets see where have you gone wrong.</h3>
+				</div>
 			</div>
 			<br>
 			<div class="alert alert-success" id="success-alert">
 				<button type="button" class="close" data-dismiss="alert">x</button>
-				<strong>Success! </strong>
-				Prfsdfsdfsdfsdf
+				<strong>Correct Answer </strong>
+				The Answer the the previous question was correct
 			</div>
       <form id="practice" type="get" action="" class="form-horizontal">
+
 				<section class="step" data-step-title="practice 1">
             <h2>Let's practice identifying good buttons</h2>
 						<h4>Click on next button to start practice</h4>
@@ -34,42 +38,84 @@
 				    <div class="span4">
 							<h4>Practice 1</h4>
 	            Is this a Good button or a Bad button?<br>
-							<input type="radio" name="practice1" value="Good_Button"> Good Button<br>
-	  					<input type="radio" name="practice1" value="Bad_Button"> Bad Button<br>
+							<input type="radio" name="practice1" value="good"> Good Button</input><br>
+	  					<input type="radio" name="practice1" value="bad"> Bad Button</input><br>
+							<div id='practice1_info' class="alert alert-info">
+								<ul>
+									Try Again<br>
+									<strong>Information</strong>
+									<li>Buttons can only have pointed or rounded corners.</li>
+									<li>Height of the button is recommended to be above 44px.</li>
+								</ul>
+							</div>
 				    </div>
 				    <div class="span4">
 							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_1.png" data-holder-rendered="true">
 							<br>
 				    </div>
 				  </div>
-						<div id='practice1_info' class="alert alert-info">
-							<ul>
-								<strong>Information</strong>
-								<li>Buttons can only have pointed or rounded corners.</li>
-								<li>Height of the button is recommended to be above 44px.</li>
-							</ul>
-						</div>
-					</row>
         </section>
 				<section class="step" data-step-title="practice 2">
 					<div class="row">
 				    <div class="span4">
 							<h4>Practice 2</h4>
-	            Below is a good example for representing an icon button.<br>Please check all the options which best suites:<br>
-							<input type="checkbox" name="practice_2" value="thin"> The icon is a thin style<br>
-							<input type="checkbox" name="practice_2" value="text"> The icon has no text associated<br>
-							<input type="checkbox" name="practice_2" value="extra"> The icon has no extra stroke<br>
-	  					<input type="checkbox" name="practice_2" value="touch"> The icon is has good touch area<br>
+	            Which of the following buttons violates iOS guidelines?<br>
+							<input type="radio" name="practice2" value="cancel"> "Cancel" Button<br>
+							<input type="radio" name="practice2" value="save"> "Save" Button<br>
+							<input type="radio" name="practice2" value="cancel_save"> Both The Buttons<br>
+	  					<input type="radio" name="practice2" value="nocancel_nosave"> None Of The Above<br>
+							<div id='practice2_info' class="alert alert-info">
+								<ul>
+									Try Again<br>
+									<strong>Information</strong>
+									<li>The color of the title and the button should be contrasting.</li>
+								</ul>
+							</div>
 				    </div>
 				    <div class="span4">
 							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_2.png" data-holder-rendered="true">
 							<br>
 				    </div>
 				  </div>
-						<div id='info' class="alert alert-danger">
-						  <strong>Dude</strong> trust me you are okay...
-						</div>
-					</row>
+        </section>
+				<section class="step" data-step-title="practice 3">
+					<div class="row">
+				    <div class="span4">
+							<h4>Practice 3</h4>
+	            Below is a good example for representing an icon button.<br>Please check all the options which best suites:<br>
+							<input type="checkbox" name="practice3" value="thin"> The icon is a thin style<br>
+							<input type="checkbox" name="practice3" value="text"> The icon has no text associated<br>
+							<input type="checkbox" name="practice3" value="extra"> The icon has no extra stroke<br>
+	  					<input type="checkbox" name="practice3" value="touch"> The icon is has good touch area<br>
+							<div id='practice3_info' class="alert alert-info">
+								<ul>
+									Try Again<br>
+									<strong>Information</strong>
+									<li>Just Icons or text can also be used as buttons if necessary. The chosen icons should be a thin style icon without a stroke to it.</li>
+								</ul>
+							</div>
+				    </div>
+				    <div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_3.png" data-holder-rendered="true">
+							<br>
+				    </div>
+				  </div>
+        </section>
+				<section class="step" data-step-title="practice 4">
+					<div class="row">
+				    <div class="span4">
+							<h4>Practice 4</h4>
+	            Which of the statement is true based on the screen below?<br>
+							<input type="radio" name="practice4" value="cancel_violates"> "Cancel" button violates the principles<br>
+							<input type="radio" name="practice4" value="send"> "Send" button violates the principles<br>
+							<input type="radio" name="practice4" value="cancel_send"> Both the buttons violates the principles<br>
+	  					<input type="radio" name="practice4" value="nocancel_nosend"> Both the buttons follows the principles.<br>
+				    </div>
+				    <div class="span4">
+							<img data-src="holder.js/100px250" class="img-fluid rounded float-right" alt="" style="display: block; width: auto; float: right;" src="screens/prac_5.png" data-holder-rendered="true">
+							<br>
+				    </div>
+				  </div>
         </section>
 				<section class="step" data-step-title="practice 2">
             Are you okay after first question?<br>
@@ -92,35 +138,45 @@
 
 			<form id="diagnosis" type="get" action="" class="form-horizontal">
         <section class="step" data-step-title="The first">
-            <div class="control-group">
-                <label class="control-label" for="inputEmail">Email</label>
-                <div class="controls">
-                    <input type="text" id="inputEmail" placeholder="Email" class="input-xlarge" title="Email is required !" required >
-                </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="inputPassword">Password</label>
-                <div class="controls">
-                    <input type="password" id="inputPassword" placeholder="Password" class="input-xlarge">
-                </div>
-            </div>
+					<div class="row">
+						<div class="span8">
+							<h4>Diagnosis 1</h4>
+							Which if the following statement is true regarding use of text in a button?<br>
+							<input type="radio" name="diagnosis1" value="camel_upper"> The text in a button should be either camel case or upper case.<br>
+							<input type="radio" name="diagnosis1" value="camel"> The text in all the button should follow camel case<br>
+							<input type="radio" name="diagnosis1" value="lower_upper"> The text can have either lower case or upper case<br>
+							<input type="radio" name="diagnosis1" value="none_of_the_above"> None Of The Above<br>
+						</div>
+					</div>
         </section>
         <section class="step" data-step-title="The second">
-            <div class="control-group">
-                <label class="control-label" for="inputUsername">Username</label>
-                    <div class="controls">
-                    <input type="text" id="inputUsername" placeholder="Username" class="input-xlarge">
-                </div>
-            </div>
+					<div class="row">
+						<div class="span8">
+							<h4>Diagnosis 2</h4>
+							Please identify Camel case text?<br>
+							<input type="radio" name="diagnosis2" value="camel"> Send<br>
+							<input type="radio" name="diagnosis2" value="upper"> SEND<br>
+						</div>
+					</div>
         </section>
         <section class="step" data-step-title="The third">
-            Which case?
-						<br>
-						<input type="radio" name="diagnosis" value="Camel"> Camel<br>
-  					<input type="radio" name="diagnosis" value="Second"> Second<br>
-						<input type="radio" name="diagnosis" value="Both"> Both<br>
+					<div class="row">
+						<div class="span8">
+							<h4>Diagnosis 3</h4>
+							Please identify Upper case text?<br>
+							<input type="radio" name="diagnosis3" value="lower"> send<br>
+							<input type="radio" name="diagnosis3" value="upper"> SEND<br>
+							<div id='diagnosis2_info' class="alert alert-info">
+								<ul>
+									<strong>This is the last question</strong>
+								</ul>
+							</div>
+						</div>
+					</div>
         </section>
-
+				<section class="step" data-step-title="fake">
+					fake
+        </section>
       </form>
     </div>
   </body>
